@@ -1,19 +1,35 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Construa um jogo da Forca em Python no qual o jogador adivinha uma palavra sorteada. Pratique listas, strings, entrada de dados, condicionais e loops.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparar a Palavra e o Estado do Jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Complete a preparação do jogo para selecionar uma palavra secreta e inicializar as variáveis que acompanharão os palpites.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra da lista `words`.
+- Inicializar uma coleção para registrar as letras já adivinhadas.
+- Definir e inicializar o limite de palpites incorretos.
+- Preparar o estado necessário para exibir quais letras da palavra já foram descobertas.
+
+### 🛠️ Conduzir uma Partida
+
+#### Descrição
+Implemente o loop principal para receber palpites, atualizar o estado do jogo e encerrar a partida quando houver vitória ou derrota.
+
+#### Requisitos
+O programa concluído deve:
+
+- Exibir a palavra com letras não descobertas representadas por `_` e solicitar um palpite de letra.
+- Revelar as posições correspondentes quando o palpite estiver na palavra.
+- Contabilizar palpites incorretos e informar quantas tentativas restam.
+- Encerrar quando todas as letras forem descobertas ou o limite de palpites incorretos for atingido.
+- Exibir uma mensagem de vitória ou derrota; em caso de derrota, revelar a palavra secreta.
