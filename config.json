@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-fastapi-with-pytest",
+      "title": "Testing FastAPI Applications with pytest",
+      "description": "Write automated tests for FastAPI routes, validation, and error responses using pytest and TestClient.",
+      "path": "assignments/testing-fastapi-with-pytest",
+      "dueDate": "2026-11-04",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
